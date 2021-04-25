@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Hachi Maru Pop', cursive;
+    background: linear-gradient(rgb(39, 171, 204), rgb(4, 74, 87));
+    min-height: 100vh;
+    color: rgb(244,244,244);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.location ,
+.temperature{
+    height: 30vh;
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.temperature {
+    flex-direction: column;
+    justify-content: center;
+}
+
+    
+.temperature .temperature-degree-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+.temperature .temperature-degree-section span{ 
+    font-size: 1.3rem;
+    font-weight: bolder;
+    margin-left: 10px;
+}
